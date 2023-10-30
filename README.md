@@ -35,7 +35,8 @@ The following parts are required to assemble and implante one probe holder. (req
 - 1x bolt (TODO: details for stereotax stereotax bolt)
 - silver wire (TODO: link)
 - Kapton tape (thin, for soldering ground wire)
-- 
+- Tap Wrench
+- Size M1 tap
 
 ## Parts list (3D-printed)
 -TODO: add parts
