@@ -15,7 +15,8 @@ The following lab tools are required to assemble and implant a probe holder.
 - Standard rodent surgical tool set
 - Thorlabs posts and connectors are helpful for washing probes, but using the sterotax is also fine if not needed for other surgeries
 - The Imec acute recording post (the one that's meant to go with the dovetail) is also helpful for washing the probes
--
+- Tap Wrench
+- Size M1 tap
 
 If 3D printing parts in-house:
 - Formlabs Form 3+ printer
@@ -35,8 +36,7 @@ The following parts are required to assemble and implante one probe holder. (req
 - 1x bolt (TODO: details for stereotax stereotax bolt)
 - silver wire (TODO: link)
 - Kapton tape (thin, for soldering ground wire)
-- Tap Wrench
-- Size M1 tap
+- 
 
 ## Parts list (3D-printed)
 -TODO: add parts
