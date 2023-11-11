@@ -15,13 +15,18 @@ The NP 1.0 holder weights 1.2g, the NP2.0 holder weights 0.57g. All weights incl
 The design uses the "metal cap" or dovetail to guide and secure the probe (through a screw in the rear of the holder).
 
 To mount proves, insert the probe with the shank first throught the dovetail, drive it all the way with the help of forceps.
+
 **Critical:**
    - The probe should not be wiggling when it reaches the bottom of the holder (if not the tolerance is too big).
    - Secure the dovetail with an M1 screw. We will post pictures of how to tap the holder and secure the probe.
    - Lift the flex, the probe metal cap should be flat in the rail (both sides at the same height - if not you have the wrong tolerance)
 
 
-To "recover" do the oposite, release the screw, use your thumb in the back of the holder and pull the probe throught the flex up.
+To "recover" do the oposite:
+   - release the screw
+   - use your thumb in the back of the holder
+   - pull the probe by the flex, up the rail until the shank is entirely out,
+   - either slide the cap out or rotate the probe down 45 degrees to break the rails.
 
 ![picture](images/mounting_recovering.gif)
 
