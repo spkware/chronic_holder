@@ -10,6 +10,21 @@ These probe enclosures use the dovetail to secure the probes, the design is at t
 
 The NP 1.0 holder weights 1.2g, the NP2.0 holder weights 0.57g. All weights include the respective probe, chassis and cap without headstage.
 
+## Mounting and recovering probes
+
+The design uses the "metal cap" or dovetail to guide and secure the probe (through a screw in the rear of the holder).
+
+To mount proves, insert the probe with the shank first throught the dovetail, drive it all the way with the help of forceps.
+**Critical:**
+   - The probe should not be wiggling when it reaches the bottom of the holder (if not the tolerance is too big).
+   - Secure the dovetail with an M1 screw. We will post pictures of how to tap the holder and secure the probe.
+   - Lift the flex, the probe metal cap should be flat in the rail (both sides at the same height - if not you have the wrong tolerance)
+
+
+To "recover" do the oposite, release the screw, use your thumb in the back of the holder and pull the probe throught the flex up.
+
+![picture](images/mounting_recovering.gif)
+
 ## Printing holders
 
 **You may have to adjust the tolerances depending on the printing and washing protocol you use**, we provide scripts - iLogic - to do this programatically from **Autodesk Inventor**. You can get an academic license for Inventor if you work in an academic institution at zero cost.
