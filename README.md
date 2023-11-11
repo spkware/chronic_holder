@@ -10,7 +10,7 @@ These probe enclosures use the dovetail to secure the probes, the design is at t
 
 The NP 1.0 holder weights 1.2g, the NP2.0 holder weights 0.57g. All weights include the respective probe, chassis and cap without headstage.
 
-#### Printing holders
+## Printing holders
 
 **You may have to adjust the tolerances depending on the printing and washing protocol you use**, we provide scripts - iLogic - to do this programatically from **Autodesk Inventor**. You can get an academic license for Inventor if you work in an academic institution at zero cost.
 
@@ -23,7 +23,7 @@ Each version NP1.0, NP2.0 and NP2.0alpha has a folder in the repository. Print u
      -  the **main chassis** is printed standing **vertically** and with the **dovetail side facing the mixer**, we tested other orientations, this was the most reliable. Do not use internal supports nor supports in the dovetail rail. This part is very sensitive to the location of the supports and printing orientation.
      - we print the *cap* (with and without headstage)  and the *stereotax holder* parts at an angle with the outer part facing the bottom, no internal supports.
 
-**Recommended printer**
+###Recommended printer
 
 | name  |  usage      |   vendor     | cost estimate | 
 |-------|--------------|-------------|---------------|
@@ -33,10 +33,14 @@ Each version NP1.0, NP2.0 and NP2.0alpha has a folder in the repository. Print u
 | [Resin tank]() | 3d printer tank (needs to be replaced from time to time) | Formlabs | around 150 (2023) |
 | [Grey Pro resin](https://formlabs.com/store/materials/grey-pro-resin/) | resin to print the holders (needs to be replaced from time to time) | Formlabs | around 200 (2023) |
 | [Isopropyl 99%](https://support.formlabs.com/s/article/Isopropyl-Alcohol-IPA) | wash parts | multiple vendors | 150 per gallon |
-Read the instructions of the Formlabs for tricks on how to print and wash. Washing times depend on how clean the isopropyl is and strongly affect the tolerances. 
 
 
-#### Mounting probes
+Read the printer instructions for tricks on how to print, wash and cure. Washing times depend on how clean the isopropyl is and strongly affect the tolerances.
+
+
+
+
+## Mounting probes
 
 Slide the probe in the chassis and screw tightly. 
 
