@@ -16,6 +16,7 @@ The NP 1.0 holder weights 1.2g, the NP2.0 holder weights 0.57g. All weights incl
 
 **Do not implant probes without testing the tolerances.** We tipically print an array of differenet tolerance values to find out the one that fits best, then use that tolerance for all holders. 
 
+### General printing considerations
 We used a **FormLabs Form 3+ printer** and **GreyPro resin** to develop these protocols, please let us know if you use another printer or resin. *Clear*, and *Rigid 10k*, will NOT work (too brittle). Black V2 also worked in our hands but was not as good.
 
 Each version NP1.0, NP2.0 and NP2.0alpha has a folder in the repository. Print using the files in the **stl_exports** folder and using **PreForm** (we will provide files to print directly in the future; for now feel free to reachout to us for these files).
@@ -23,7 +24,7 @@ Each version NP1.0, NP2.0 and NP2.0alpha has a folder in the repository. Print u
    -  the **main chassis** is printed standing **vertically** and with the **dovetail side facing the mixer**, we tested other orientations, this was the most reliable. Do not use internal supports nor supports in the dovetail rail. This part is very sensitive to the location of the supports and printing orientation.
    - we print the *cap* (with and without headstage)  and the *stereotax holder* parts at an angle with the outer part facing the bottom, no internal supports.
 
-###Recommended printer
+### Recommended printer
 
 | name  |  usage      |   vendor     | cost estimate | 
 |-------|--------------|-------------|---------------|
@@ -37,12 +38,12 @@ Each version NP1.0, NP2.0 and NP2.0alpha has a folder in the repository. Print u
 
 Read the printer instructions for tricks on how to print, wash and cure. Washing times depend on how clean the isopropyl is and strongly affect the tolerances.
 
-### Print from STL
+### Printing from STL
 
-Tested on PreForm 3.30.0. **Layer tickness 0.050mm** with **GreyPro resin**.
+Tested on PreForm 3.32.0. **Layer tickness 0.050mm** with **GreyPro resin**.
 
 1. Drag the STL file(s), acknowledge *ignore* if it prompts for "issues"
-2. The holder needs to be **vertical**. Orient the **dovetail to the mixer side**. On the **orientation** menu: Orient Y by 90 deg, orient Z by 180 (for NP2 and NP2a; NP1 will load already facing the mixer side)
+2. The holder chassis needs to be **vertical**. Orient the **dovetail to the mixer side**. On the **orientation** menu: Orient Y by 90 deg, orient Z by 180 (for NP2 and NP2a; NP1 will load already facing the mixer side)
 3. On the **supports** menu: remove internal supports, density 0.8, touchpoint size 0.45mm.
 4. Click *Auto-generate* supports, then **edit** and remove supports that are in the dovetail. Put the support that is in the entrance of the dovetail closer to the bottom/back side.  
 5. Copy-paste after the supports are generated, as many copies as need.
