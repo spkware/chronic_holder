@@ -103,6 +103,7 @@ The following parts are required to assemble and implante one probe holder. (req
 - silver wire (TODO: link)
 - Kapton tape (thin, for soldering ground wire)
 
+These designs are not intended for commercial use or distribution
 
 
 
