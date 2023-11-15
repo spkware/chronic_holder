@@ -101,10 +101,7 @@ Printing should take <7 h depending on how many parts are being printed. After p
 
 # Tools list
 
-The following lab tools are required to assemble and implant a probe holder.
-
-- Thorlabs posts and connectors are helpful for washing probes, but using the sterotax is also fine if not needed for other surgeries
-- The Imec acute recording post (the one that's meant to go with the dovetail) is also helpful for washing the probes
+The following lab tools are required to assemble and implant a probe holder: 
 
 | name  |  usage      |   vendor     | 
 |-------|--------------|-------------|
