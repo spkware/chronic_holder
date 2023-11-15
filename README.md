@@ -6,20 +6,47 @@ Design files and instructions for manufacturing NP1.0, NP2.0alpha, and NP2.0 Neu
 
 <img src='images/description.png' width='500'>
 
-These probe enclosures use the dovetail to secure the probes, the design is at the *current limit of the printing resolution of the SLA technology* and for that reason, it is sensitive to the material, and to the washing and curing steps. After printing, the screw hole has to be taped using a standard 1mm taper.
+These probe enclosures use the dovetail to secure the probes, the design is at the *current limit of the printing resolution of the SLA technology* and for that reason, it is sensitive to the material, and to the washing and curing steps. After printing, the screw hole has to be tapped using a standard 1mm thread tapper.
 
-The NP 1.0 holder weights 1.2g, the NP2.0 holder weights 0.57g. All weights include the respective probe, chassis and cap without headstage.
+The NP1.0 holder weights 1.2g, the NP2.0 holder weights 0.57g. All weights include the respective probe, chassis and cap, but no headstage.
+
+# Table of contents
+- [Assembly](#assembly)
+  - [Preparing the printed parts](#preparing-the-printed-parts)
+  - [Preparing the probes](#preparing-the-probes)
+  - [Mounting and recovering probes](#mounting-and-recovering-probes)
+  - [Printing holders](#printing-holders)
+    - [General printing considerations](#general-printing-considerations)
+    - [Recommended printer](#recommended-printer)
+    - [Printing from STL](#printing-from-stl)
+- [Tools list](#tools-list)
+- [Parts list (non-printed)](#parts-list-non-printed)
+
+# Assembly
+There are 7 total steps to using this design for your experiments. Documentation is still being added but we will eventually cover them all here. 
+
+1. Printing the parts
+2. Preparing the holder
+3. Prepare the probe(s) (sharpening, soldering)
+4. Mounting the probe in the holder
+5. Implantation surgery
+6. Probe Explantation
+7. Probe cleaning
+
+## Preparing the printed parts
+
+## Preparing the probes
 
 ## Mounting and recovering probes
 
-The design uses the "metal cap" or dovetail to guide and secure the probe (through a screw in the rear of the holder).
+The design uses the "metal cap" (aka dovetail) to guide and secure the probe (through a screw in the rear of the holder). **To use this implant design, we recommend you order the probes denoted "with metal cap" on the IMEC website.** If you already have probes without the metal cap and want to use this design, you can have the metal dovetail machined yourself and then glue it to the probe. We will provide the design files for that part and instructions on how to glue it soon.
 
-To mount proves, insert the probe with the shank first throught the dovetail, drive it all the way with the help of forceps.
+To mount probes, insert the probe with the shank first throught the dovetail, drive it all the way with the help of forceps.
 
 **Critical:**
-   - The probe should not be wiggling when it reaches the bottom of the holder (if not the tolerance is too big).
-   - Secure the dovetail with an M1 screw. We will post pictures of how to tap the holder and secure the probe.
-   - Lift the flex, the probe metal cap should be flat in the rail (both sides at the same height - if not you have the wrong tolerance)
+   - The probe should not be wiggling when it reaches the bottom of the holder. The fit should be snug (if the probe wiggles side to side when you move the flex, the dovetail tolerance is too large).
+   - Secure the probe with an M1 screw. We will post pictures of how to tap the holder and secure the probe (this should be done before trying to mount the probe in the holder.)
+   - Lift the flex, the probe metal cap should be flat in the rail (if the probe is not sitting flat in the dovetail, the tolerance is a bit too large.)
 
 
 To "recover" do the oposite:
@@ -66,42 +93,47 @@ Tested on PreForm 3.32.0. **Layer tickness 0.050mm** with **GreyPro resin**.
 2. The holder chassis needs to be **vertical**. Orient the **dovetail to the mixer side**. On the **orientation** menu: Orient Y by 90 deg, orient Z by 180 (for NP2 and NP2a; NP1 will load already facing the mixer side)
 3. On the **supports** menu: remove internal supports, density 0.8, touchpoint size 0.45mm.
 4. Click *Auto-generate* supports, then **edit** and remove supports that are in the dovetail. Put the support that is in the entrance of the dovetail closer to the bottom/back side.  
+   - TODO: add photo of parts with supports in PreForm
 5. Copy-paste after the supports are generated, as many copies as need.
 
-Printing should take 7 h depending on how many parts are being printed. After printing, **wash for 15-20 min** depending on how clean is the isopropyl and let dry for at least 4 h (avoid sun light). If it is sticky after washing, give it 2 more minutes. Cure the parts in Form **Cure with the default settings for Grey Pro**. 
-
-## Mounting probes
-
-Slide the probe in the chassis and screw tightly. 
+Printing should take <7 h depending on how many parts are being printed. After printing, **wash for 15-20 min** depending on how clean is the isopropyl is, and let dry for at least 4 h (avoid sun light). If the parts feel "sticky" after this drying period, wash for 2 additional minutes. Cure the parts in Form **Cure with the default settings for Grey Pro**. 
 
 
-## Tools list
+# Tools list
 
 The following lab tools are required to assemble and implant a probe holder.
 
-- solder station
-- forceps (for probe handling)
-- small phillips screwdriver
-- hex key (TODO: add size)
-- putty to hold probes when not in use (link)
-- Kopf surgical stereotax (we will soon make stereotax arm attachments for other manufactures) TODO: more stereotax details?
-- Standard rodent surgical tool set
 - Thorlabs posts and connectors are helpful for washing probes, but using the sterotax is also fine if not needed for other surgeries
 - The Imec acute recording post (the one that's meant to go with the dovetail) is also helpful for washing the probes
-- Tap Wrench
-- Size M1 tap
 
-If 3D printing parts in-house:
-- 
+| name  |  usage      |   vendor     | 
+|-------|--------------|-------------|
+| Solder station | Solder wire to probes (if using external ground) | any |
+| Fine tipped forceps | Handling probes | any ([example here](https://www.amazon.com/Scientific-Labwares-Precision-Stainless-Straight/dp/B07V3JF6JD/ref=sr_1_4?keywords=fine+tip+forceps&qid=1700025665&sr=8-4)) |
+| Small phillips screwdriver (M1) | Secure probe in holder | any | 
+| Tap wrench | Tap the plastic holder | any
+| M1 tap | Tap the plastic holder | any
+| Hex key (todo, add size) | secure holder to stereotax | any| 
+| Putty | Temporarily store assembled holders | todo: link
+| Kopf surgical stereotax | stereotaxic surgery | Kopf (we will soon make stereotax arm attachments for other manufactures)
+|Standard rodent surgical toolset | rodent surgery | any| 
+|(Optional) Metal cap holder | Hold the probes for cleaning | [IMEC](https://www.neuropixels.org/) (There are different versions for the 1.0 and 2.0 probes, get the correct one for the probes you have)
+|(Optional) Thorlabs breadboard, posts and rotating post clamps | Hold probes for washing. (It can be nice to use Thorlabs parts to build a dedicated washing setup to keep surgical rigs unoccupied, but you can also just use your stereotax) | Thorlabs
 
-## Parts list (non-printed)
-The following parts are required to assemble and implante one probe holder. (requirements are the same for all probe versions).
-- 1x Neuropixels 1.0/2.0/2.0alpha probe (with metal cap. Metal caps (dovetails) can also be glued on in house, but alignment may not be as good.)
-- 1x set screw (TODO: M1x3 or M1x4?)
-- 1x nut (TODO: details for stereotax nut)
-- 1x bolt (TODO: details for stereotax stereotax bolt)
-- silver wire (TODO: link)
-- Kapton tape (thin, for soldering ground wire)
+
+
+
+# Additional parts list (non-printed)
+The following parts are also required to assemble and implant one probe, not including the 3D printed parts.
+
+| name  |  usage      |   vendor     | 
+|-------|--------------|-------------|
+| Neuropixels probe (1.0/2.0alpha/2.0) **with metal cap** | record neural activity | [IMEC](https://www.neuropixels.org/) |
+| M1x3 (NP2) or M1x4 (NP1) phillips head screw | secure probe to holder | TODO, double check these lengths
+| Nut (TODO, add size) | stereotax holder | any
+| Bolt (TODO, add size) | stereotax holder | any
+| (Optional) Kapton tape | secure probe and silver wire for soldering | TODO
+| (Optional) Silver wire | grounding, if external grounding is desired | TODO
 
 These designs are not intended for commercial use or distribution
 
