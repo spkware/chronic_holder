@@ -35,7 +35,19 @@ There are 7 total steps to using this design for your experiments. Documentation
 
 ## Preparing the printed parts
 
+Here we describe how to tap printed parts, check the **printing holders** section for how to get the parts printed.
+
 ## Preparing the probes
+
+Sharpening probes makes that there is less resistance when driving probes during insertion and can prevent the need for duroctomies.
+
+Soldering the ground and reference wires are an essential part of preparation to reduce noise. Neuropixels probes are less prone to noise than others because the digitization occurs at the probe. Here we discuss the optimal grounding strategies for using the multiple probes chronically. Some of this knowledge is guided by discussions with *Bill Karsh* (main developer of SpikeGLX) and *Jan Putzeys* (main developper of the acquisition system).
+
+There are many ways of connecting multiple probes and ground to the animal that work, here we present one of them. The probes have 2 soldering points, the **ground** and the **reference**. Ideally we connect the ground **from one of the probes** to the animal (screw in the skull) to ground the animal. The reference from each probe can then be connected together and to a screw in the animal.
+
+Technically, the best configuration separates the ground from the reference, we don't always do this and often connect the ground from one of the probes to the reference of all probes and attach that to a ground screw that is touching the *dura*.
+
+When implanting many probes one can consider using the tip of the probe as reference. NP2.0 allow connecting the tip of 2 probes as reference (2 per headstage).When implanting less than 4 probes we often use the external reference as ground.  
 
 ## Mounting and recovering probes
 
@@ -132,7 +144,10 @@ The following parts are also required to assemble and implant one probe, not inc
 | (Optional) Kapton tape | secure probe and silver wire for soldering | TODO
 | (Optional) Silver wire | grounding, if external grounding is desired | TODO
 
-These designs are not intended for commercial use or distribution
+These designs are not intended for commercial use or distribution.
+
+Please reach out for feedback.
+Max Melin (mmelin@ucla.edu) and Joao Couto (couto@ucla.edu)
 
 
 
