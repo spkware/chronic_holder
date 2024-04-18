@@ -76,7 +76,7 @@ To "recover" do the oposite:
 **Do not implant probes without testing the tolerances.** We tipically print an array of differenet tolerance values to find out the one that fits best, then use that tolerance for all holders. 
 
 ### General printing considerations
-We used a **FormLabs Form 3+ printer** and **GreyPro resin** to develop these protocols, please let us know if you use another printer or resin. *Clear*, and *Rigid 10k*, will NOT work (too brittle). Black V2 also worked in our hands but was not as good.
+We used a **FormLabs Form 3+ printer** and **GreyPro resin** to develop these protocols, please let us know if you use another printer or resin. *Clear*, and *Rigid 10k*, will NOT work (too brittle). Black V2 also worked in our hands but was not as good. Check [#2](i2) for an alternative material using a commercial vendor ( thanks @wangxuanyu0419 ).
 
 Each version NP1.0, NP2.0 and NP2.0alpha has a folder in the repository. Print using the files in the **stl_exports** folder and using **PreForm** (we will provide files to print directly in the future; for now feel free to reachout to us for these files).
 
