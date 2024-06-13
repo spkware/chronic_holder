@@ -138,7 +138,7 @@ The following parts are also required to assemble and implant one probe, not inc
 | name  |  usage      |   vendor     | 
 |-------|--------------|-------------|
 | Neuropixels probe (1.0/2.0alpha/2.0) **with metal cap** | record neural activity | [IMEC](https://www.neuropixels.org/) |
-| M1x3 (NP2) or M1x4 (NP1) phillips head screw | secure probe to holder | TODO, double check these lengths
+| M1x4 (NP2) or M1x5 (NP1) phillips head screw | secure probe to holder | any
 | Nut (TODO, add size) | stereotax holder | any
 | Bolt (TODO, add size) | stereotax holder | any
 | (Optional) Kapton tape | secure probe and silver wire for soldering | TODO
