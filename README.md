@@ -1,6 +1,6 @@
 # ***indie*** - ***in***dependent ***d***ovetail ***i***mplants for ***e***lectrophysiology
 
-Design files and instructions for manufacturing NP1.0, NP2.0alpha, and NP2.0 Neuropixels chronic recording enclosures.
+Design files and instructions for manufacturing NP1.0, NP2.0alpha, and NP2.0 Neuropixels chronic recording enclosures. 
 
 **Please reach out to us if you want to try this approach, we need your input.** We are actively working on the instructions and trying to find vendors that can print holders reliably.
 
@@ -71,7 +71,7 @@ To "recover" do the oposite:
 
 ## Printing holders
 
-**You may have to adjust the tolerances depending on the printing and washing protocol you use**, we provide scripts - iLogic - to do this programatically from **Autodesk Inventor**. You can get an academic license for Inventor if you work in an academic institution at zero cost.
+**You may have to adjust the tolerances depending on the printing and washing protocol you use**, we provide scripts - iLogic - to do this programatically from **Autodesk Inventor 2025** - unfortunately backwards compatibility is limited. You can get an academic license for Inventor if you work in an academic institution at zero cost.
 
 **Do not implant probes without testing the tolerances.** We tipically print an array of differenet tolerance values to find out the one that fits best, then use that tolerance for all holders. 
 
@@ -148,7 +148,6 @@ These designs are not intended for commercial use or distribution.
 
 Please reach out for feedback.
 Max Melin (mmelin@ucla.edu) and Joao Couto (couto@ucla.edu)
-
 
 
 
