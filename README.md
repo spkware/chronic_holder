@@ -21,6 +21,9 @@ The NP1.0 holder weights 1.2g, the NP2.0 holder weights 0.57g. All weights inclu
   - [Preparing the printed parts](#preparing-the-printed-parts)
   - [Preparing the probes](#preparing-the-probes)
   - [Mounting and recovering probes](#mounting-and-recovering-probes)
+  - [Holder assembly for freely moving vs head-fixed experiments](#holder-assembly-for-freely-moving-vs-head-fixed-experiments)
+
+
 
 # Tools list
 
@@ -149,7 +152,22 @@ To "recover" do the oposite:
 
 ![picture](images/mounting_recovering.gif)
 
+## Holder assembly for freely moving vs head-fixed experiments
 
+The indie can be used for both freely moving and head-fixed experiments. We have designed two different caps to facilitate this. 
+- The head-fixed cap covers the main chassis and provides a slot to house the flex cable when not in use. Thus, the headstage must be connected to the flex cable for each recording session. 
+- The freely-moving cap, has space to house the headstage on the animal. In this configuration, the headstage remains on the animal, even when in its home cage.
+
+Both caps should be applied __after__ the surgery is complete. We recommend removing the animal from the stereotax and then putting the caps on. Instructions for assembling both caps are shown below.
+
+![picture](images/head_fixed_cap_assembly.png)
+
+![picture](images/freely_moving_cap_assembly.png)
+
+
+
+
+_____________________
 
 These designs are not intended for commercial use or distribution.
 
