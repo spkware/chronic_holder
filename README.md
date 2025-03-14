@@ -24,7 +24,6 @@ The NP1.0 holder weights 1.2g, the NP2.0 holder weights 0.57g. All weights inclu
   - [Holder assembly for freely moving vs head-fixed experiments](#holder-assembly-for-freely-moving-vs-head-fixed-experiments)
 
 
-
 # Tools list
 
 The following lab tools and supplies are required:
@@ -109,7 +108,6 @@ Tested on PreForm 3.32.0. **Layer tickness 0.050mm** with **GreyPro resin**.
 2. The holder chassis needs to be **vertical**. Orient the **dovetail to the mixer side**. On the **orientation** menu: Orient Y by 90 deg, orient Z by 180 (for NP2 and NP2a; NP1 will load already facing the mixer side)
 3. On the **supports** menu: remove internal supports, density 0.8, touchpoint size 0.45mm.
 4. Click *Auto-generate* supports, then **edit** and remove supports that are in the dovetail. Put the support that is in the entrance of the dovetail closer to the bottom/back side.  
-   - TODO: add photo of parts with supports in PreForm
 5. Copy-paste after the supports are generated, as many copies as need.
 
 Printing should take <7 h depending on how many parts are being printed. After printing, **wash for 15-20 min** depending on how clean is the isopropyl is, and let dry for at least 4 h (avoid sun light). If the parts feel "sticky" after this drying period, wash for 2 additional minutes. Cure the parts in Form **Cure with the default settings for Grey Pro**. 
