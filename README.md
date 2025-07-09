@@ -1,8 +1,10 @@
 # ***indie*** - ***in***dependent ***d***ovetail ***i***mplants for ***e***lectrophysiology
 
+**Please check out our [preprint](https://www.biorxiv.org/content/10.1101/2023.12.22.572441v2) for more details on the approach!** 
+
 Design files and instructions for manufacturing NP1.0, NP2.0alpha, and NP2.0 Neuropixels chronic recording enclosures. 
 
-**Please reach out to us if you want to try this approach, we need your input.** We are actively working on the instructions and trying to find vendors that can print holders reliably.
+**Please reach out to us if you want to try this approach, we need your input.** We are actively working on the instructions.
 
 <img src='images/description.png' width='500'>
 
