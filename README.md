@@ -91,7 +91,7 @@ There are 7 total steps to using this design for your experiments:
 
 Read the printer instructions for tricks on how to print, wash and cure. Washing times depend on how clean the isopropyl is and strongly affect the tolerances.
 ### General printing considerations
-We used a **FormLabs Form 3+ printer** and **GreyPro resin** to develop these protocols, please let us know if you use another printer or resin. *Clear*, and *Rigid 10k*, will NOT work (too brittle). Black V2 also worked in our hands but was not as good. Check [#2](i2) for an alternative material using a commercial vendor ( thanks @wangxuanyu0419 ).
+We used a **FormLabs Form 3+ printer** and **GreyPro resin** to develop these protocols, please let us know if you use another printer or resin. *Clear*, and *Rigid 10k*, will NOT work (too brittle). Black V2 also worked in our hands but was not as good. Check [#2](https://github.com/spkware/chronic_holder/issues/2) for an alternative material using a commercial vendor ( thanks @wangxuanyu0419 ).
 
 Each version NP1.0, NP2.0 and NP2.0alpha has a folder in the repository. Print using the files in the **stl_exports** folder and using **PreForm** . 
 
